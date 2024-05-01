@@ -313,7 +313,7 @@ class ProteinSequenceTest {
     fun testFindMotif(){
         val oczekiwanyWynik = listOf(1)
         val sekwencja3 = ProteinSequence("sekwencja3", "AVQCL")
-            assertEquals(oczekiwanyWynik, sekwencja3.findMotif("VQCL"))
+        assertEquals(oczekiwanyWynik, sekwencja3.findMotif("VQCL"))
     }
 }
 
